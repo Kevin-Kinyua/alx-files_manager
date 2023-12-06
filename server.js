@@ -1,5 +1,3 @@
-#!/usr/bin/node
-
 import express from 'express';
 import router from './routes/index';
 import unmatchedRouteHandler from './middleware/unmatched';
